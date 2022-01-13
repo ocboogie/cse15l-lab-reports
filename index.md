@@ -15,5 +15,3 @@
 # code block
 here
 ```
-
-![Image](istockphoto-1084222130-170667a.jpeg)
