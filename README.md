@@ -1,3 +1,5 @@
+[https://ocboogie.github.io/cse15l-lab-reports/](https://ocboogie.github.io/cse15l-lab-reports/)
+
 # cse15l-lab-reports
 To build this site, I am using [mdBook](https://github.com/rust-lang/mdBook), a static site generator. I prefer the looks and ergonomics over Jekyll which is what Github Pages uses under the hood. 
 
