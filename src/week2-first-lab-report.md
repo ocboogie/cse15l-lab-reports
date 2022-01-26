@@ -98,6 +98,9 @@ Now, try running some commands. Theses are some funs ones:
 
 To logout of the UCSD computer, you can run: `exit`.
 
+Example of some file navigation: ![Untitled](week2-first-lab-report/Untitled%205.png)
+
+
 ## 4. Copying Files to the Host
 
 Hopefully, you have run some commands and know what some of them do. However, we still have no idea how to copy files from the client (your machine) to the host (UCSD computer). To do this, there is a command called `scp` (secure copy). This command will allow you to copy files from the your computer to the host, and must be ran on the client (not the host). So if you haven’t already, logout of the UCSD computer. Create a file named `stuff.txt` with the following content:
@@ -119,6 +122,9 @@ $ cat stuff.txt
 ```
 
 You should see `this is indeed stuff` 🎉.
+
+Example of the whole process: ![Untitled](week2-first-lab-report/Untitled%206.png)
+
 
 ## 5. Making the Host Trust Us with SSH Keys
 
@@ -164,6 +170,8 @@ Now that we’ve created our ssh keys and made a directory on the host, we want 
 
 Now, try again to use the `ssh` command to get login to the host machine. You shouldn’t have to use your password!
 
+With this, it should be as simple as: ![Untitled](week2-first-lab-report/Untitled%207.png)
+
 ## 6. Getting Clever with SSH
 
 Suppose you are working a Java project, and you have to constantly edit the Java file on your machine, copy it over to the host, compile it on the host, and finally run it on the host. We can make this process super quick with the power of the command line with the following command:
@@ -173,3 +181,5 @@ $ scp JavaFile.java cs15lwi22xyz@ieng6.ucsd.edu:~/ && ssh cs15lwi22xyz@ieng6.ucs
 ```
 
 With one command, we can copy the file, compile the file, and run the file.
+
+Exmaple of the whole process: ![Untitled](week2-first-lab-report/Untitled%208.png)
