@@ -18,7 +18,7 @@
 
 ### Correct Ouput
 
-According to the commonmark spec, there should be only one link: "`google.com".
+According to the commonmark spec, there should be three links: "`google.com", "google.com" and "ucsd.edu".
 
 ### Added Test
 
@@ -29,7 +29,7 @@ can simply add a test with the following code:
 ```java
 @Test
 public void testSnippet1() throws IOException {
-    assertLinks(List.of("`google.com"), "testCases/snippet1.md");
+    assertLinks(List.of("`google.com", "google.com", "ucsd.edu"), "testCases/snippet1.md");
 }
 ```
 
